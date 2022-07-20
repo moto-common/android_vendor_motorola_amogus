@@ -188,8 +188,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/amogus/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/motorola/amogus/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/motorola/amogus/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
-    vendor/motorola/amogus/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets2.rc \
-    vendor/motorola/amogus/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc2.rc \
     vendor/motorola/amogus/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-qti.rc \
     vendor/motorola/amogus/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
     vendor/motorola/amogus/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
@@ -1187,7 +1185,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/amogus/proprietary/vendor/etc/acdbdata/rav/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/rav/Hdmi_cal.acdb \
     vendor/motorola/amogus/proprietary/vendor/etc/acdbdata/rav/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/rav/Headset_cal.acdb \
     vendor/motorola/amogus/proprietary/vendor/etc/acdbdata/rav/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/rav/Speaker_cal.acdb \
-    vendor/motorola/amogus/proprietary/vendor/etc/camera/camera_config_rav.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config_rav.xml \
     vendor/motorola/amogus/proprietary/vendor/etc/camera/dual_golden.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/dual_golden.bin \
     vendor/motorola/amogus/proprietary/vendor/etc/camera/mot_ov16e10_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_ov16e10_chromatix.xml \
     vendor/motorola/amogus/proprietary/vendor/etc/camera/mot_s5k4h7_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_s5k4h7_chromatix.xml \
@@ -1250,6 +1247,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/amogus/proprietary/vendor/firmware/inxr_hx_criteria.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/inxr_hx_criteria.csv \
     vendor/motorola/amogus/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
     vendor/motorola/amogus/proprietary/vendor/firmware/novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_mp.bin \
+    vendor/motorola/amogus/proprietary/vendor/lib/libmmcamera_mot_ov02a_rav.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_ov02a_rav.so \
     vendor/motorola/amogus/proprietary/vendor/lib/rfsa/adsp/tas25xx_TI_0.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/tas25xx_TI_0.bin \
     vendor/motorola/amogus/proprietary/vendor/lib/rfsa/adsp/tas25xx_TI_1.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/tas25xx_TI_1.bin
 PRODUCT_COPY_FILES += \
@@ -1277,9 +1275,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/amogus/proprietary/vendor/etc/acdbdata/sofia/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/sofia/Speaker_cal.acdb \
     vendor/motorola/amogus/proprietary/vendor/etc/acdbdata/sofiap/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/sofiap/Speaker_cal.acdb \
     vendor/motorola/amogus/proprietary/vendor/etc/acdbdata/sofiar/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/sofiar/Speaker_cal.acdb \
-    vendor/motorola/amogus/proprietary/vendor/etc/camera/camera_config_sofia.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config_sofia.xml \
-    vendor/motorola/amogus/proprietary/vendor/etc/camera/camera_config_sofiap.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config_sofiap.xml \
-    vendor/motorola/amogus/proprietary/vendor/etc/camera/camera_config_sofiar.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config_sofiar.xml \
     vendor/motorola/amogus/proprietary/vendor/etc/camera/dual_golden_sofiar.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/dual_golden_sofiar.bin \
     vendor/motorola/amogus/proprietary/vendor/etc/camera/mot_ov16e10_sofiarow_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_ov16e10_sofiarow_chromatix.xml \
     vendor/motorola/amogus/proprietary/vendor/etc/camera/mot_ov8856_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_ov8856_chromatix.xml \
@@ -1368,4 +1363,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/amogus/proprietary/vendor/firmware/rcv_fast_switch1.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/rcv_fast_switch1.txt \
     vendor/motorola/amogus/proprietary/vendor/firmware/rcv_fast_switch2.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/rcv_fast_switch2.txt \
     vendor/motorola/amogus/proprietary/vendor/firmware/spk_fast_switch1.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/spk_fast_switch1.txt \
-    vendor/motorola/amogus/proprietary/vendor/firmware/spk_fast_switch2.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/spk_fast_switch2.txt
+    vendor/motorola/amogus/proprietary/vendor/firmware/spk_fast_switch2.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/spk_fast_switch2.txt \
+    vendor/motorola/amogus/proprietary/vendor/lib/libmmcamera_mot_s5k4h7_sofiar.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k4h7_sofiar.so
