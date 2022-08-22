@@ -156,6 +156,13 @@ android_app_import {
 }
 
 dex_import {
+	name: "moto-telephony",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/moto-telephony.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
 	name: "com.qualcomm.qti.imscmservice-V2.0-java",
 	owner: "motorola",
 	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar"],
@@ -257,13 +264,6 @@ dex_import {
 	name: "vendor.qti.ims.rcsconfig-V2.1-java",
 	owner: "motorola",
 	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V2.1-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "moto-telephony",
-	owner: "motorola",
-	jars: ["proprietary/system_ext/framework/moto-telephony.jar"],
 	system_ext_specific: true,
 }
 
