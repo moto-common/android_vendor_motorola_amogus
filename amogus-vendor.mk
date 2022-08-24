@@ -1190,8 +1190,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/amogus/proprietary/vendor/firmware/inx_hx_criteria.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/inx_hx_criteria.csv \
     vendor/motorola/amogus/proprietary/vendor/firmware/inxr_Himax_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/inxr_Himax_firmware.bin \
     vendor/motorola/amogus/proprietary/vendor/firmware/inxr_hx_criteria.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/inxr_hx_criteria.csv \
-    vendor/motorola/amogus/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
-    vendor/motorola/amogus/proprietary/vendor/firmware/novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_mp.bin \
+    vendor/motorola/amogus/proprietary/vendor/firmware/tm_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tm_novatek_ts_fw.bin \
+    vendor/motorola/amogus/proprietary/vendor/firmware/tm_novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tm_novatek_ts_mp.bin \
     vendor/motorola/amogus/proprietary/vendor/lib/libmmcamera_mot_ov02a_rav.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_ov02a_rav.so \
     vendor/motorola/amogus/proprietary/vendor/lib/rfsa/adsp/tas25xx_TI_0.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/tas25xx_TI_0.bin \
     vendor/motorola/amogus/proprietary/vendor/lib/rfsa/adsp/tas25xx_TI_1.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/tas25xx_TI_1.bin
@@ -1305,6 +1305,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/amogus/proprietary/vendor/firmware/focaltech-ft8756-0e-01-sofiar.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-ft8756-0e-01-sofiar.bin \
     vendor/motorola/amogus/proprietary/vendor/firmware/focaltech-tianma-ft8756-0c-01-sofia.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-tianma-ft8756-0c-01-sofia.bin \
     vendor/motorola/amogus/proprietary/vendor/firmware/focaltech-tianma-ft8756-11-01-sofiap.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-tianma-ft8756-11-01-sofiap.bin \
+    vendor/motorola/amogus/proprietary/vendor/firmware/auo_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/auo_novatek_ts_fw.bin \
     vendor/motorola/amogus/proprietary/vendor/firmware/rcv_fast_switch1.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/rcv_fast_switch1.txt \
     vendor/motorola/amogus/proprietary/vendor/firmware/rcv_fast_switch2.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/rcv_fast_switch2.txt \
     vendor/motorola/amogus/proprietary/vendor/firmware/spk_fast_switch1.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/spk_fast_switch1.txt \
