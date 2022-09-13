@@ -748,7 +748,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/amogus/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/motorola/amogus/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/motorola/amogus/proprietary/vendor/lib/libqrtr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqrtr.so \
-    vendor/motorola/amogus/proprietary/vendor/lib/libqsap_sdk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqsap_sdk.so \
     vendor/motorola/amogus/proprietary/vendor/lib/libqsocket.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqsocket.so \
     vendor/motorola/amogus/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
     vendor/motorola/amogus/proprietary/vendor/lib/librcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcc.so \
@@ -965,7 +964,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/amogus/proprietary/vendor/lib64/libqmimotext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmimotext.so \
     vendor/motorola/amogus/proprietary/vendor/lib64/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices.so \
     vendor/motorola/amogus/proprietary/vendor/lib64/libqrtr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqrtr.so \
-    vendor/motorola/amogus/proprietary/vendor/lib64/libqsap_sdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqsap_sdk.so \
     vendor/motorola/amogus/proprietary/vendor/lib64/libqsocket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqsocket.so \
     vendor/motorola/amogus/proprietary/vendor/lib64/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtigef.so \
     vendor/motorola/amogus/proprietary/vendor/lib64/librcc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librcc.so \
@@ -1289,8 +1287,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/amogus/proprietary/vendor/etc/thermal-engine-sofiar.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sofiar.conf \
     vendor/motorola/amogus/proprietary/vendor/firmware/aw8624_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8624_haptic.bin \
     vendor/motorola/amogus/proprietary/vendor/firmware/aw8624_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8624_rtp.bin \
-    vendor/motorola/amogus/proprietary/vendor/firmware/aw8695_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8695_haptic.bin \
-    vendor/motorola/amogus/proprietary/vendor/firmware/aw8695_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8695_rtp.bin \
+    vendor/motorola/amogus/proprietary/vendor/firmware/aw8695_haptic_sofia.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8695_haptic_sofia.bin \
+    vendor/motorola/amogus/proprietary/vendor/firmware/aw8695_haptic_sofiap.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8695_haptic_sofiap.bin \
     vendor/motorola/amogus/proprietary/vendor/firmware/crus_sp_rx0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crus_sp_rx0.bin \
     vendor/motorola/amogus/proprietary/vendor/firmware/crus_sp_rx1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crus_sp_rx1.bin \
     vendor/motorola/amogus/proprietary/vendor/firmware/crus_sp_rx2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crus_sp_rx2.bin \
