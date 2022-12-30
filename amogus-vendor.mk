@@ -1287,6 +1287,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/amogus/proprietary/vendor/firmware/cs35l41-dsp1-rcv-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-rcv-prot.bin \
     vendor/motorola/amogus/proprietary/vendor/firmware/cs35l41-dsp1-spk-cali.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-cali.bin \
     vendor/motorola/amogus/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-prot.bin \
+    vendor/motorola/amogus/proprietary/vendor/firmware/focaltech-auo-ft8756-08-01-sofia.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-auo-ft8756-08-01-sofia.bin \
     vendor/motorola/amogus/proprietary/vendor/firmware/focaltech-auo-ft8756-0b-01-sofiap.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-auo-ft8756-0b-01-sofiap.bin \
     vendor/motorola/amogus/proprietary/vendor/firmware/focaltech-ft8756-0e-01-sofiar.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-ft8756-0e-01-sofiar.bin \
     vendor/motorola/amogus/proprietary/vendor/firmware/focaltech-tianma-ft8756-0c-01-sofia.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-tianma-ft8756-0c-01-sofia.bin \
