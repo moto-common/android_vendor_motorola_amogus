@@ -846,7 +846,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/amogus/proprietary/vendor/lib/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.latency@2.0.so \
     vendor/motorola/amogus/proprietary/vendor/lib/vendor.qti.latency@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.latency@2.1.so \
     vendor/motorola/amogus/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
-    vendor/motorola/amogus/proprietary/vendor/lib64/com.motorola.hardware.biometric.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.motorola.hardware.biometric.fingerprint@1.0.so \
     vendor/motorola/amogus/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/motorola/amogus/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/motorola/amogus/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@2.1.so \
@@ -1297,4 +1296,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/amogus/proprietary/vendor/firmware/rcv_fast_switch2.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/rcv_fast_switch2.txt \
     vendor/motorola/amogus/proprietary/vendor/firmware/spk_fast_switch1.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/spk_fast_switch1.txt \
     vendor/motorola/amogus/proprietary/vendor/firmware/spk_fast_switch2.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/spk_fast_switch2.txt \
-    vendor/motorola/amogus/proprietary/vendor/lib/libmmcamera_mot_s5k4h7_sofiar.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k4h7_sofiar.so
+    vendor/motorola/amogus/proprietary/vendor/lib/libmmcamera_mot_s5k4h7_sofiar.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k4h7_sofiar.so \
+    vendor/motorola/amogus/proprietary/vendor/lib/libmmcamera_mot_s5k4h7_sofiar_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k4h7_sofiar_eeprom.so
