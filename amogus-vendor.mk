@@ -1085,7 +1085,6 @@ PRODUCT_PACKAGES += \
     CneApp \
     IWlanService \
     QtiTelephonyService \
-    atfwd \
     uceShimService \
     ims \
     qcrilmsgtunnel \
